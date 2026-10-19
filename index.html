@@ -506,7 +506,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div id="s2t1f" class="feedback" style="display:none"></div>
 <div class="navigation"><button class="btn btn-secondary" onclick="showS2('s2Theory')">← Назад</button><button class="btn btn-primary" onclick="chkSort('s2t1',{s1:'pers',s2:'soc',s3:'pers',s4:'soc',s5:'pers',s6:'soc'},'step2_task1')">✓ Перевірити</button><button class="btn btn-success" onclick="showS2('s2t2')">Далі →</button></div>
 </section>
-<!-- === ОНОВЛЕНЕ ЗАВДАННЯ 2: КАРТКИ ДОСЛІДЖЕННЯ + ВАРІАНТИ ВІДПОВІДЕЙ === -->
 <section class="card hidden" id="s2t2">
 <h2>📊 Завдання 2. Аналіз дослідження добробуту українців (2024)</h2>
 <div class="research-header">
@@ -516,7 +515,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="research-header-sub">Середні оцінки показників добробуту українців за 10-бальною шкалою (0 — найнижча, 10 — найвища)</div>
 </div>
 </div>
-
 <div class="research-cards-grid">
 <div class="research-card card-high">
 <div class="research-card-top">
@@ -530,7 +528,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="research-card-bar"><div class="research-card-bar-fill" style="width:69%"></div></div>
 <div class="research-card-note">🏆 Найвищий показник</div>
 </div>
-
 <div class="research-card card-mid">
 <div class="research-card-top">
 <div class="research-card-icon">💡</div>
@@ -543,7 +540,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="research-card-bar"><div class="research-card-bar-fill" style="width:56%"></div></div>
 <div class="research-card-note">📊 Середній показник</div>
 </div>
-
 <div class="research-card card-low">
 <div class="research-card-top">
 <div class="research-card-icon">😊</div>
@@ -556,7 +552,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="research-card-bar"><div class="research-card-bar-fill" style="width:51%"></div></div>
 <div class="research-card-note">📉 Нижче середнього</div>
 </div>
-
 <div class="research-card card-alert">
 <div class="research-card-top">
 <div class="research-card-icon">😟</div>
@@ -570,15 +565,12 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="research-card-note">⚠️ Найнижчий показник</div>
 </div>
 </div>
-
 <div class="research-questions">
 <div class="research-questions-title">🔍 Що саме потрібно проаналізувати?</div>
-
-<!-- ПИТАННЯ 1 -->
 <div class="research-question-block">
 <div class="research-question-header">
 <div class="research-question-num">1</div>
-<div class="research-question-text">Порівняй показники. Який показник отримав найвищу оцінку, а який — найнижчу?</small></div>
+<div class="research-question-text">Порівняй показники. Який показник отримав найвищу оцінку, а який — найнижчу?<small>Обери одну правильну відповідь</small></div>
 </div>
 <div class="research-question-options" id="rq1">
 <div class="option" data-correct="false" onclick="sel(this,'rq1')" tabindex="0" role="button">
@@ -601,8 +593,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div>
 </div>
-
-<!-- ПИТАННЯ 2 -->
 <div class="research-question-block">
 <div class="research-question-header">
 <div class="research-question-num">2</div>
@@ -629,8 +619,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div>
 </div>
-
-<!-- ПИТАННЯ 3 -->
 <div class="research-question-block">
 <div class="research-question-header">
 <div class="research-question-num">3</div>
@@ -657,9 +645,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div>
 </div>
-
 </div>
-
 <div id="s2t2f" class="feedback" style="display:none"></div>
 <div class="navigation"><button class="btn btn-secondary" onclick="showS2('s2t1')">← Назад</button><button class="btn btn-primary" onclick="chkResearch()">✓ Перевірити всі відповіді</button><button class="btn btn-success" onclick="showS2('s2t3')">Далі →</button></div>
 </section>
@@ -672,13 +658,13 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 <div class="fill-blank-word-bank" id="fillBank2">
 <div class="fill-word" onclick="wordSel(this)">потреби</div>
-<div class="fill-word" onclick="wordSel(this)">реалізовувати здібності</div>
 <div class="fill-word" onclick="wordSel(this)">якість життя</div>
-<div class="fill-word" onclick="wordSel(this)">безпеки</div>
 <div class="fill-word" onclick="wordSel(this)">довкілля</div>
 <div class="fill-word" onclick="wordSel(this)">гроші</div>
+<div class="fill-word" onclick="wordSel(this)">реалізовувати здібності</div>
 <div class="fill-word" onclick="wordSel(this)">слабкості</div>
 <div class="fill-word" onclick="wordSel(this)">задоволення</div>
+<div class="fill-word" onclick="wordSel(this)">безпеки</div>
 </div>
 </div>
 <div id="s2t3f" class="feedback" style="display:none"></div>
@@ -744,6 +730,9 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </section>
 <section class="card hidden" id="s3t1">
 <h2>📝 Завдання 1. Аналіз ситуації</h2>
+<div class="task-instruction mb-24" style="background: #f0f4f8; padding: 12px 16px; border-radius: 8px; border-left: 4px solid #3b82f6;">
+<strong>📌 Умова:</strong> Проаналізуйте описану ситуацію та <strong>оберіть три правильні відповіді</strong>, що найкраще розкривають її суть та наслідки для громади.
+</div>
 <div class="feedback feedback-warning mb-24">
 <strong>📌 Ситуація:</strong> У невеликій громаді відкрили сучасний спортивний майданчик, облаштували велосипедні доріжки та висадили дерева. Мешканці почали частіше гуляти, займатися спортом і проводити час разом. Водночас частина людей продовжувала залишати сміття після відпочинку, пошкоджувала обладнання та не дотримувалася правил благоустрою.
 </div>
@@ -754,7 +743,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="img-fallback">🏞️<div class="img-fallback-text">Зображення не завантажилось</div></div>
 </div>
 </div>
-<div class="task-options" id="s3t1">
+<div class="task-options" id="s3t1-options">
 <div class="option" data-correct="true" onclick="tog(this)" tabindex="0">
 <div class="option-checkbox"></div>
 <div class="option-text">
@@ -776,7 +765,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="option" data-correct="true" onclick="tog(this)" tabindex="0">
 <div class="option-checkbox"></div>
 <div class="option-text">
-<div class="option-label">🤝 Відповідальна поведінка кожного мешканця — основа добробуту громади</div>
+<div class="option-label">🤝 Відповідальна поведінка кожного мешканця є запорукою збереження спільного простору та гармонії в громаді</div>
 </div>
 </div>
 </div>
@@ -784,7 +773,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div id="s3t1f" class="feedback" style="display:none"></div>
 <div class="navigation">
 <button class="btn btn-secondary" onclick="showS3('s3Theory')">← Назад</button>
-<button class="btn btn-primary" onclick="chkMulti('s3t1','s3t1f',3,'step3_task1')">✓ Перевірити</button>
+<button class="btn btn-primary" onclick="chkMulti('s3t1-options','s3t1f',3,'step3_task1')">✓ Перевірити</button>
 <button class="btn btn-success" onclick="showS3('s3t2')">Далі →</button>
 </div>
 </section>
@@ -954,6 +943,9 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </section>
 <section class="card hidden" id="s4t2">
 <h2>📝 Завдання 2. Аналіз ситуації</h2>
+<div class="task-instruction mb-24" style="background: #f0f4f8; padding: 12px 16px; border-radius: 8px; border-left: 4px solid #3b82f6;">
+<strong>📌 Умова:</strong> Проаналізуйте ситуацію та <strong>оберіть три правильні відповіді</strong>, які дають об'єктивну моральну оцінку вчинкам героїв та їхнім наслідкам.
+</div>
 <div class="feedback feedback-warning mb-24">
 <strong>📌 Ситуація:</strong> Інна та Андрій знайшли гаманець із грошима і паспортом. Андрій запропонував поділити гроші й купити кросівки. Інна відмовилася, бо це чужі речі, і запропонувала повернути власниці.
 </div>
@@ -964,7 +956,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="img-fallback">💼<div class="img-fallback-text">Зображення не завантажилось</div></div>
 </div>
 </div>
-<div class="task-options" id="s4t2">
+<div class="task-options" id="s4t2-options">
 <div class="option" data-correct="true" onclick="tog(this)" tabindex="0">
 <div class="option-checkbox"></div>
 <div class="option-text">
@@ -972,8 +964,8 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div>
 <div class="option" data-correct="true" onclick="tog(this)" tabindex="0">
-<div class="option-text">
 <div class="option-checkbox"></div>
+<div class="option-text">
 <div class="option-label">💰 Рішення Андрія — егоїстичне, воно підриває довіру в суспільстві</div>
 </div>
 </div>
@@ -992,7 +984,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div>
 <div id="s4t2f" class="feedback" style="display:none"></div>
-<div class="navigation"><button class="btn btn-secondary" onclick="showS4('s4t1')">← Назад</button><button class="btn btn-primary" onclick="chkMulti('s4t2','s4t2f',3,'step4_task2')">✓ Перевірити</button><button class="btn btn-success" onclick="showS4('s4t3')">Далі →</button></div>
+<div class="navigation"><button class="btn btn-secondary" onclick="showS4('s4t1')">← Назад</button><button class="btn btn-primary" onclick="chkMulti('s4t2-options','s4t2f',3,'step4_task2')">✓ Перевірити</button><button class="btn btn-success" onclick="showS4('s4t3')">Далі →</button></div>
 </section>
 <section class="card hidden" id="s4t3">
 <h2>🎯 Завдання 3. Міф чи правда?</h2>
@@ -1033,7 +1025,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="navigation"><button class="btn btn-secondary" onclick="showS4('s4t2')">← Назад</button><button class="btn btn-primary" onclick="chkMyth('s4t3',{s4t3q1:'myth',s4t3q2:'truth',s4t3q3:'truth',s4t3q4:'truth'},'step4_task3')">✓ Завершити</button><button class="btn btn-success" onclick="goToStep(5)">Далі: Крок 5 →</button></div>
 </section>
 </main>
-<!-- === КРОК 5 - ЩО ЗМІЦНЮЄ СУСПІЛЬНИЙ ДОБРОБУТ (КОЛЬОРОВІ ПІДГРУПИ) === -->
+<!-- КРОК 5 - ЩО ЗМІЦНЮЄ СУСПІЛЬНИЙ ДОБРОБУТ -->
 <main class="container hidden" id="step5Page">
 <div class="step-header"><div class="step-header-top"><h2 class="step-title">🇺🇦 Крок 5. Що зміцнює суспільний добробут</h2><span class="step-badge">3 завдання</span></div></div>
 <section class="card" id="s5Theory">
@@ -1044,8 +1036,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <p><strong>Громадянська активність</strong> показує, що ми робимо.</p>
 <p><strong>Оборонна свідомість</strong> — за що ми несемо відповідальність.</p>
 </div>
-
-<!-- === ПІДГРУПА 1: НАЦІОНАЛЬНІ ЦІННОСТІ (СИНІЙ КОЛІР) === -->
 <h3 style="margin:24px 0 16px;color:#1e40af;display:flex;align-items:center;gap:10px;padding:12px 16px;background:linear-gradient(135deg,#dbeafe,#bfdbfe);border-radius:12px;border-left:6px solid #2563eb">🇺🇦 Національні цінності</h3>
 <div class="theory-grid">
 <div class="theory-block block-blue">
@@ -1077,8 +1067,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div>
 </div>
-
-<!-- === ПІДГРУПА 2: ГРОМАДЯНСЬКА АКТИВНІСТЬ (ЗЕЛЕНИЙ КОЛІР) === -->
 <h3 style="margin:24px 0 16px;color:#166534;display:flex;align-items:center;gap:10px;padding:12px 16px;background:linear-gradient(135deg,#dcfce7,#bbf7d0);border-radius:12px;border-left:6px solid #16a34a">🏛️ Громадянська активність</h3>
 <div class="theory-grid">
 <div class="theory-block block-green">
@@ -1110,8 +1098,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div>
 </div>
-
-<!-- === ПІДГРУПА 3: ОБОРОННА СВІДОМІСТЬ (ЧЕРВОНИЙ КОЛІР) === -->
 <h3 style="margin:24px 0 16px;color:#991b1b;display:flex;align-items:center;gap:10px;padding:12px 16px;background:linear-gradient(135deg,#fee2e2,#fecaca);border-radius:12px;border-left:6px solid #dc2626">🛡️ Оборонна свідомість</h3>
 <div class="theory-grid">
 <div class="theory-block block-red">
@@ -1143,7 +1129,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div>
 </div>
-
 <div class="key-point">💡 <strong>Пам'ятай:</strong> Кожен громадянин може зробити внесок у добробут і стійкість України своїми щоденними відповідальними вчинками.</div>
 <div class="navigation"><button class="btn btn-secondary" onclick="goToMainPage()">← До змісту</button><button class="btn btn-primary" onclick="showS5('s5t1')">Далі: Завдання 1 →</button></div>
 </section>
@@ -1176,6 +1161,9 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </section>
 <section class="card hidden" id="s5t2">
 <h2>📝 Завдання 2. Аналіз ситуації</h2>
+<div class="task-instruction mb-24" style="background: #f0f4f8; padding: 12px 16px; border-radius: 8px; border-left: 4px solid #3b82f6;">
+<strong>📌 Умова:</strong> Проаналізуйте ситуацію та <strong>оберіть три правильні відповіді</strong>, які найкраще характеризують дії мешканців та їхній вплив на життя громади.
+</div>
 <div class="feedback feedback-warning mb-24">
 <strong>📌 Ситуація:</strong> Після сильного буревію в громаді було пошкоджено дитячий майданчик і парк. Частина мешканців організувала прибирання, збір коштів на ремонт та допомогу літнім людям. Інші вважали, що це повинна робити лише місцева влада, тому не долучалися.
 </div>
@@ -1186,7 +1174,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="img-fallback">🌪️<div class="img-fallback-text">Зображення не завантажилось</div></div>
 </div>
 </div>
-<div class="task-options" id="s5t2">
+<div class="task-options" id="s5t2-options">
 <div class="option" data-correct="true" onclick="tog(this)" tabindex="0">
 <div class="option-checkbox"></div>
 <div class="option-text">
@@ -1214,23 +1202,23 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div>
 <div id="s5t2f" class="feedback" style="display:none"></div>
-<div class="navigation"><button class="btn btn-secondary" onclick="showS5('s5t1')">← Назад</button><button class="btn btn-primary" onclick="chkMulti('s5t2','s5t2f',3,'step5_task2')">✓ Перевірити</button><button class="btn btn-success" onclick="showS5('s5t3')">Далі →</button></div>
+<div class="navigation"><button class="btn btn-secondary" onclick="showS5('s5t1')">← Назад</button><button class="btn btn-primary" onclick="chkMulti('s5t2-options','s5t2f',3,'step5_task2')">✓ Перевірити</button><button class="btn btn-success" onclick="showS5('s5t3')">Далі →</button></div>
 </section>
 <section class="card hidden" id="s5t3">
 <h2>✍️ Завдання 3. Заповни пропуски</h2>
 <div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Натисни на пропущене слово → потім на потрібне слово зі «Слова-підказки».</div>
 <div class="fill-blanks-container">
 <div class="fill-blanks-text" id="fillText5">
-<strong>Національні цінності</strong> <span class="fill-blank" data-correct="об'єднують" onclick="fillSel(this)">___?</span> суспільство, <strong>громадянська активність</strong> допомагає його <span class="fill-blank" data-correct="розвивати" onclick="fillSel(this)">___?</span>, а <strong>оборотна свідомість</strong> зміцнює <span class="fill-blank" data-correct="безпеку" onclick="fillSel(this)">___?</span> держави. Особисті цінності визначають <span class="fill-blank" data-correct="поведінку" onclick="fillSel(this)">___?</span> людини, а поведінка кожного впливає на добробут <span class="fill-blank" data-correct="суспільства" onclick="fillSel(this)">___?</span>.
+<strong>Національні цінності</strong> <span class="fill-blank" data-correct="об'єднують" onclick="fillSel(this)">___?</span> суспільство, <strong>громадянська активність</strong> допомагає його <span class="fill-blank" data-correct="розвивати" onclick="fillSel(this)">___?</span>, а <strong>оборонна свідомість</strong> зміцнює <span class="fill-blank" data-correct="безпеку" onclick="fillSel(this)">___?</span> держави. Особисті цінності визначають <span class="fill-blank" data-correct="поведінку" onclick="fillSel(this)">___?</span> людини, а поведінка кожного впливає на добробут <span class="fill-blank" data-correct="суспільства" onclick="fillSel(this)">___?</span>.
 </div>
 <div class="fill-blank-word-bank" id="fillBank5">
 <div class="fill-word" onclick="wordSel(this)">об'єднують</div>
-<div class="fill-word" onclick="wordSel(this)">розвивати</div>
 <div class="fill-word" onclick="wordSel(this)">безпеку</div>
 <div class="fill-word" onclick="wordSel(this)">поведінку</div>
-<div class="fill-word" onclick="wordSel(this)">суспільства</div>
 <div class="fill-word" onclick="wordSel(this)">розділяють</div>
 <div class="fill-word" onclick="wordSel(this)">руйнувати</div>
+<div class="fill-word" onclick="wordSel(this)">суспільства</div>
+<div class="fill-word" onclick="wordSel(this)">розвивати</div>
 <div class="fill-word" onclick="wordSel(this)">економіку</div>
 </div>
 </div>
@@ -1310,8 +1298,7 @@ function initS5(){initTZ('s5t1')}
 function sel(el,gid){if(el.classList.contains("disabled"))return;var opts=document.querySelectorAll("#"+gid+" .option");for(var i=0;i<opts.length;i++)opts[i].classList.remove("selected");el.classList.add("selected")}
 function tog(el){if(el.classList.contains("disabled"))return;el.classList.toggle("selected")}
 function chk(gid,tid){var s=document.querySelector("#"+gid+" .option.selected");var f=document.getElementById(gid+"f");if(!f)return;f.style.display="block";if(!s){f.className="feedback feedback-warning";f.innerHTML="⚠️ Обери варіант відповіді";return}if(s.dataset.correct==="true"){s.classList.add("correct");f.className="feedback feedback-success";f.innerHTML="<strong>✅ Правильно!</strong>";var opts=document.querySelectorAll("#"+gid+" .option");for(var i=0;i<opts.length;i++){opts[i].classList.add("disabled");if(opts[i].dataset.correct==="true")opts[i].classList.add("correct")}addC(tid);showToast("Завдання виконано!","✅")}else{s.classList.add("incorrect");f.className="feedback feedback-error";f.innerHTML="<strong>❌ Неправильно.</strong> Спробуй ще раз."}}
-function chkMulti(gid,fid,need,tid){var opts=document.querySelectorAll("#"+gid+" .option");var f=document.getElementById(fid);if(!f)return;f.style.display="block";var selOpts=[];for(var i=0;i<opts.length;i++)if(opts[i].classList.contains("selected"))selOpts.push(opts[i]);if(selOpts.length!==need){f.className="feedback feedback-warning";f.innerHTML="⚠️ Обери <strong>"+need+"</strong> правильні відповіді.";return}var ok=true;for(var j=0;j<opts.length;j++){var sb=opts[j].dataset.correct==="true";var is=opts[j].classList.contains("selected");if(sb&&is)opts[j].classList.add("correct");else if(!sb&&is){opts[j].classList.add("incorrect");ok=false}else if(sb&&!is)ok=false;opts[j].classList.add("disabled")}if(ok){f.className="feedback feedback-success";f.innerHTML="<strong>✅ Правильно!</strong>";addC(tid);showToast("Завдання виконано!","🎉")}else{f.className="feedback feedback-error";f.innerHTML="<strong>❌ Не зовсім.</strong> Спробуй ще раз.";for(var k=0;k<opts.length;k++)opts[k].classList.remove("correct","incorrect","disabled")}}
-// === НОВА ФУНКЦІЯ: перевірка 3 питань дослідження ===
+function chkMulti(gid,fid,need,tid){var opts=document.querySelectorAll("#"+gid+" .option");var f=document.getElementById(fid);if(!f)return;f.style.display="block";var selOpts=[];for(var i=0;i<opts.length;i++)if(opts[i].classList.contains("selected"))selOpts.push(opts[i]);if(selOpts.length!==need){f.className="feedback feedback-warning";f.innerHTML="⚠️ Обери <strong>"+need+"</strong> правильні відповіді.";return}var ok=true;for(var j=0;j<opts.length;j++){var sb=opts[j].dataset.correct==="true";var is=opts[j].classList.contains("selected");if(sb&&is)opts[j].classList.add("correct");else if(!sb&&is){opts[j].classList.add("incorrect");ok=false}else if(sb&&!is)ok=false;opts[j].classList.add("disabled")}if(ok){f.className="feedback feedback-success";f.innerHTML="<strong>✅ Правильно!</strong>";addC(tid);showToast("Завдання виконано!","🎉")}else{f.className="feedback feedback-error";f.innerHTML="<strong>❌ Не зовсім.</strong> Спробуй ще раз.";for(var k=0;k<opts.length;k++)opts[k].classList.remove("correct","incorrect","disabled","selected")}}
 function chkResearch(){
 var f=document.getElementById("s2t2f");
 if(!f)return;
@@ -1364,7 +1351,7 @@ opts[n].classList.remove("correct","incorrect","disabled","selected");
 },4000);
 }
 }
-var sortData={s2t1:[{id:"s1",t:"Фізичне здоров'я людини",icon:"🏥",z:"pers"},{id:"s2",t:"Рівень злочинності в країні",icon:"🚔",z:"soc"},{id:"s3",t:"Особистий дохід",icon:"💰",z:"pers"},{id:"s4",t:"Стан природного середовища",icon:"🌳",z:"soc"},{id:"s5",t:"Особиста освіта",icon:"🎓",z:"pers"},{id:"s6",t:"Довіра в суспільстві",icon:"🤝",z:"soc"}]};
+var sortData={s2t1:[{id:"s1",t:"Фізичне здоров'я людини",icon:"🏥",z:"pers"},{id:"s2",t:"Рівень злочинності в країні",icon:"🚔",z:"soc"},{id:"s3",t:"Власний дохід",icon:"💰",z:"pers"},{id:"s4",t:"Стан природного середовища",icon:"🌳",z:"soc"},{id:"s5",t:"Самоосвіта",icon:"🎓",z:"pers"},{id:"s6",t:"Довіра в суспільстві",icon:"🤝",z:"soc"}]};
 function initSort(key){var bankId="sortBank2";var bank=document.getElementById(bankId);if(!bank)return;bank.innerHTML="";var persZone=document.getElementById("sortPers");var socZone=document.getElementById("sortSoc");if(persZone)persZone.innerHTML="";if(socZone)socZone.innerHTML="";var items=sortData[key];var shuffled=items.slice().sort(function(){return Math.random()-0.5});for(var i=0;i<shuffled.length;i++){var it=shuffled[i];var d=document.createElement("div");d.className="sorting-item";d.dataset.id=it.id;d.dataset.correct=it.z;d.innerHTML='<span class="sorting-icon">'+it.icon+'</span><span>'+it.t+'</span>';d.onclick=function(){if(this.classList.contains("placed"))return;var all=bank.querySelectorAll(".sorting-item");for(var j=0;j<all.length;j++)all[j].classList.remove("selected");this.classList.add("selected");this.style.borderColor="var(--warning)";this.style.background="#fef3c7";sortSelected=this};bank.appendChild(d)}}
 function placeSort(zone,key){if(!sortSelected)return;var clone=document.createElement("div");clone.className="sorting-item placed";clone.dataset.id=sortSelected.dataset.id;clone.dataset.correct=sortSelected.dataset.correct;clone.dataset.zone=zone.dataset.zone;clone.innerHTML=sortSelected.innerHTML;zone.querySelector(".sorting-zone-items").appendChild(clone);sortSelected.classList.add("placed");sortSelected.style.opacity=".4";sortSelected.style.cursor="default";sortSelected=null}
 function resetSort(key){sortSelected=null;initSort(key)}
@@ -1396,7 +1383,7 @@ if(v2>=80){ok++;a2.className="slider-answer feedback-success visible";a2.innerHT
 if(v3>=60&&v3<=85){ok++;a3.className="slider-answer feedback-success visible";a3.innerHTML="✅ <strong>Правильно!</strong> Твій вибір: <strong>"+v3+"</strong>. Відповідальна поведінка помірно-сильно впливає на безпеку суспільства."}else{a3.className="slider-answer feedback-error visible";a3.innerHTML="❌ <strong>Не зовсім.</strong> Твій вибір: <strong>"+v3+"</strong>. Правильна відповідь: <strong>60–85</strong> (помірний вплив)."}
 if(ok===3){f.className="feedback feedback-success";f.innerHTML="<strong>✅ Чудово!</strong> Ти правильно оцінив(ла) вплив дій!";addC("step3_task3");showToast("Завдання виконано!","🎉")}else{f.className="feedback feedback-warning";f.innerHTML="💡 Правильно: "+ok+"/3. Переглянь правильні відповіді поруч зі слайдерами."}}
 function mythSel(btn,qid){if(btn.classList.contains("correct")||btn.classList.contains("incorrect"))return;var parent=btn.parentElement;var btns=parent.querySelectorAll(".myth-btn");for(var i=0;i<btns.length;i++)btns[i].classList.remove("myth-selected","truth-selected");if(btn.dataset.val==="myth")btn.classList.add("myth-selected");else btn.classList.add("truth-selected");mythCompleted[qid]=btn.dataset.val;var f=document.getElementById(qid+"f");if(f){f.classList.add("visible");f.className="myth-feedback feedback-info visible";f.innerHTML="💡 Натисни «Завершити», щоб перевірити всі відповіді."}}
-function chkMyth(prefix,answers,tid){var f=document.getElementById(prefix+"f");if(!f)return;f.style.display="block";var ok=0;var total=Object.keys(answers).length;for(var qid in answers){var correct=answers[qid];var user=mythCompleted[qid];var row=document.querySelector('[onclick*="'+qid+'"]');var btns=row?row.querySelectorAll(".myth-btn"):[];for(var i=0;i<btns.length;i++){btns[i].classList.remove("correct","incorrect");if(btns[i].dataset.val===correct)btns[i].classList.add("correct");else if(btns[i].classList.contains("myth-selected")||btns[i].classList.contains("truth-selected"))btns[i].classList.add("incorrect")}
+function chkMyth(prefix,answers,tid){var f=document.getElementById(prefix+"f");if(!f)return;f.style.display="block";var ok=0;var total=Object.keys(answers).length;for(var qid in answers){var correct=answers[qid];var user=mythCompleted[qid];var btn=document.querySelector('button[onclick*="'+qid+'"]');var row=btn?btn.parentElement:null;var btns=row?row.querySelectorAll(".myth-btn"):[];for(var i=0;i<btns.length;i++){btns[i].classList.remove("correct","incorrect");if(btns[i].dataset.val===correct)btns[i].classList.add("correct");else if(btns[i].classList.contains("myth-selected")||btns[i].classList.contains("truth-selected"))btns[i].classList.add("incorrect")}
 var fb=document.getElementById(qid+"f");if(fb){fb.classList.add("visible");if(user===correct){fb.className="myth-feedback feedback-success visible";fb.innerHTML="✅ <strong>Правильно!</strong> "+getMythExplanation22(qid,correct)}else{fb.className="myth-feedback feedback-error visible";fb.innerHTML="❌ <strong>Неправильно.</strong> Правильна відповідь: "+(correct==="myth"?"МІФ":"ПРАВДА")+". "+getMythExplanation22(qid,correct)}}
 if(user===correct)ok++}
 if(ok===total){f.className="feedback feedback-success";f.innerHTML="<strong>✅ Чудово!</strong> Усі відповіді правильні!";addC(tid);showToast("Завдання виконано!","🎉")}else{f.className="feedback feedback-error";f.innerHTML="<strong>❌</strong> Правильно: "+ok+"/"+total+". Переглянь пояснення до кожного твердження."}}
